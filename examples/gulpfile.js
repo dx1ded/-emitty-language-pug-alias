@@ -31,7 +31,7 @@ const getFilter = () => (
 					this.push(file)
 				}
 
-				callback()
+				callback() 
       })
 	})
 )
