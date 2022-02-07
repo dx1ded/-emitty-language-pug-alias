@@ -11,7 +11,7 @@ npm install -D emitty-pug-language-alias
 and install another dependencies:
 
 ```shell
-npm install -D gulp gulp-if path gulp-pug pug-alias through2 @emitty/core
+npm install -D gulp gulp-if gulp-pug pug-alias through2 @emitty/core
 ```
 
 The example is avaible here: [gulpfile.js](https://github.com/dx1ded/emitty-language-pug-alias/blob/main/examples/gulpfile.js)

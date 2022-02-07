@@ -1,6 +1,5 @@
 const gulp = require('gulp')
 const gulpIf = require('gulp-if')
-const path = require('path')
 const pug = require('gulp-pug')
 const pugAlias = require('pug-alias')
 
@@ -8,8 +7,8 @@ const through2 = require('through2')
 const emitty = require('@emitty/core').configure()
 
 const aliases = {
-  '@components': path.resolve(__dirname, 'src/components'),
-  '@partials': path.resolve(__dirname, 'src/partials')
+  '@components': 'src/components',
+  '@partials': 'src/partials'
 }
 
 emitty.language({
