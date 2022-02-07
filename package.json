@@ -1,6 +1,6 @@
 {
-  "name": "@emitty/pug-language-alias",
-  "version": "1.0.0",
+  "name": "emitty-pug-language-alias",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

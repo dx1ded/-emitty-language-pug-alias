@@ -14,7 +14,7 @@ const aliases = {
 
 emitty.language({
   extensions: ['.pug'],
-  parser: require('pug-language-alias').parse.bind(this, aliases)
+  parser: require('emitty-pug-language-alias').parse.bind(this, aliases)
 })
 
 global.watch = false
