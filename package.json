@@ -1,0 +1,21 @@
+{
+  "name": "@emitty/pug-language-alias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pug",
+    "alias",
+    "emitty",
+    "gulp"
+  ],
+  "author": "Volodymyr Doskochinskiy <doskovol1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "path": "^0.12.7",
+    "pug-lexer": "^5.0.1"
+  }
+}
