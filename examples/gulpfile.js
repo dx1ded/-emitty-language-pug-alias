@@ -27,11 +27,11 @@ const getFilter = () => (
     emitty
       .filter(file.path, global.changedFile['markup'])
       .then((result) => {
-        if (result) {
-          this.push(file)
-        }
+				if (result) {
+					this.push(file)
+				}
 
-        callback()
+				callback() 
       })
 	})
 )
