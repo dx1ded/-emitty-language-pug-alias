@@ -12,6 +12,10 @@
     "emitty",
     "gulp"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dx1ded/emitty-language-pug-alias.git"
+  },
   "author": "Volodymyr Doskochinskiy <doskovol1@gmail.com>",
   "license": "MIT",
   "dependencies": {
